@@ -1,0 +1,9 @@
+l = []
+n= int(input("Total Number of List Items to enter = "))
+
+for i in range(1, n + 1):
+    e= int(input("Please enter the %d Value = "  %i))
+    l.append(e)
+    
+for i in range(len(l) - 1, -1, -1):
+    print(l[i], end = '  ')
